@@ -10,20 +10,22 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  height:100vh;
+  min-height:100vh;
+  padding: 20px;
 }
 
 /* Main white card */
 .wrapper{
   width: 100%;
-  padding:40px;
+  height: 100%;
+  padding: 0 80px;
 }
 
 .card{
   background:white;
-  max-width:1100px;
+  max-width: 100%;
   margin: auto;
-  padding:60px 30px 0;  /* bottom padding removed so preview touches edge */
+  padding:60px 30px 0;
   border-radius:20px;
   text-align:center;
   position:relative;
@@ -106,8 +108,8 @@ h1{
 .preview{
   background:rgb(19, 19, 19);
   color:white;
-  padding:40px 40px 0;  /* no bottom padding — touches card edge */
-  border-radius:25px 25px 0px 0px;  /* matches card's bottom radius */
+  padding:40px 40px 0;
+  border-radius:25px 25px 0px 0px;
   max-width:500px;
   margin:auto;
 }
