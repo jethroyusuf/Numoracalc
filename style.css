@@ -15,15 +15,15 @@ body{
 
 /* Main white card */
 .wrapper{
-  width:100%;
+  width: 100%;
   padding:40px;
 }
 
 .card{
   background:white;
   max-width:1100px;
-  margin:auto;
-  padding:60px 40px 0;  /* bottom padding removed so preview touches edge */
+  margin: auto;
+  padding:60px 30px 0;  /* bottom padding removed so preview touches edge */
   border-radius:20px;
   text-align:center;
   position:relative;
@@ -96,6 +96,10 @@ h1{
 
 .cta:hover{
   transform:scale(1.05);
+}
+
+.nav-calc:hover{
+    transform:scale(1.05);
 }
 
 /* Calculator preview */
