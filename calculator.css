@@ -50,3 +50,11 @@ form .display input{
 form input.equal{
     width: 145px;
 }
+
+form input.operator{
+    background-color: #f9902f;
+}
+
+form input.operator1{
+    background-color: rgb(180, 180, 180);
+}
